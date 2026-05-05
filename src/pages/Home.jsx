@@ -13,7 +13,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { portfolioData } from '../data/portfolio'
-import toheebImg from '../assets/toheeb.png'
 
 // ── Animated counter ──────────────────────────────────────────
 function useCounter(target, duration = 2000, start = false) {
@@ -301,7 +300,7 @@ export default function Home() {
           {/* Profile image circle */}
           <div className="w-72 h-72 rounded-full overflow-hidden border-4 border-white shadow-2xl relative z-10">
             <img
-              src="/src/assets/toheeb.png"
+              src="/toheeb.png"
               alt="Adepoju Toheeb Ayobami"
               className="w-full h-full object-cover object-top"
             />
